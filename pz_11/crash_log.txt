@@ -1,0 +1,13 @@
+--- CRASH DETECTED ---
+PID: 3618
+Fault Address: 0x0
+Stack Trace:
+./1(+0x1110) [0xbefb765c1110]
+linux-vdso.so.1(__kernel_rt_sigreturn+0x0) [0xe0f1328e6a80]
+./1(+0x118c) [0xbefb765c118c]
+./1(+0x12b8) [0xbefb765c12b8]
+/lib/aarch64-linux-gnu/libc.so.6(+0x2259c) [0xe0f1326b259c]
+/lib/aarch64-linux-gnu/libc.so.6(__libc_start_main+0x9c) [0xe0f1326b267c]
+./1(+0xbb0) [0xbefb765c0bb0]
+Restarting application...
+
